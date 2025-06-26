@@ -1,0 +1,15 @@
+# Configuration Example for LLM Model Comparison Tool
+# Copy this file to config.txt and modify as needed
+
+# API Keys (Optional - Current implementation uses free local models)
+OPENAI_API_KEY=your_openai_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+HUGGINGFACE_TOKEN=your_huggingface_token_here
+
+# Model Settings
+MAX_TOKEN_LENGTH=150
+DEFAULT_TEMPERATURE=0.7
+DEVICE_PREFERENCE=auto
+
+# Note: This tool currently uses completely FREE local models
+# No API keys required for basic functionality 
