@@ -1,0 +1,11 @@
+# Core dependencies for tool-enhanced reasoning script
+aiohttp>=3.8.0       # Async HTTP client for Gemini API calls
+asyncio-compat>=0.1.2  # Async compatibility utilities
+
+# Optional dependencies for enhanced functionality
+requests>=2.28.0     # Fallback HTTP client
+urllib3>=1.26.0      # URL handling utilities
+
+# Development and testing dependencies (optional)
+pytest>=7.0.0        # Testing framework
+pytest-asyncio>=0.21.0  # Async testing support 
