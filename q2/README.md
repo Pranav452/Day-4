@@ -159,37 +159,6 @@ q2/ (My Multimodal QA Agent)
 └── README.md                          # This file
 ```
 
-## 🚀 Deployment Instructions
-
-### Deploy to Vercel (My Recommended Platform)
-1. **Push to GitHub**: Push my code to your GitHub repository
-2. **Connect to Vercel**: 
-   - Go to [vercel.com](https://vercel.com)
-   - Connect your GitHub account
-   - Import my project
-3. **Set Environment Variables**:
-   ```
-   GEMINI_API_KEY=your_actual_api_key_here
-   ```
-4. **Deploy**: Vercel automatically builds and deploys my application
-
-### Deploy to Netlify
-1. **Build the project**: `npm run build`
-2. **Upload to Netlify**: 
-   - Go to [netlify.com](https://netlify.com)
-   - Drag and drop the `.next` folder
-3. **Set Environment Variables** in Netlify dashboard
-4. **Configure Build Settings**:
-   ```
-   Build command: npm run build
-   Publish directory: .next
-   ```
-
-### Deploy to Railway
-1. **Connect GitHub**: Link my repository to Railway
-2. **Add Environment Variables**: Set `GEMINI_API_KEY`
-3. **Deploy**: Railway automatically handles the deployment
-
 ### Custom Server Deployment
 ```bash
 # Build for production
